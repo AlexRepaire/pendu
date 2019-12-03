@@ -3,6 +3,7 @@ let motsNormal = ["contentieux","radiateur","formation","restaurant","maladroit"
 let motsFacile = ["numerique","voiture","chaise","table","console","voisin","hopital"];
 let valider = document.getElementById("valider");
 let lettre = document.getElementById("lettre");
+let mot = document.getElementById("mot");
 let maxTentative = 3;
 let tentativeNormal = 6;
 let tentativeFacile = 8;
