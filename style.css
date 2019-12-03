@@ -7,3 +7,37 @@ span{
     display: inline-block;
     width: 15px;
 }
+#mot{
+    text-align: center;
+}
+#lettre{
+    text-align: center;
+}
+#valider{
+    text-align: center;
+}
+header{
+    background-color: steelblue;
+    height: 200px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#level{
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+}
+button:hover{
+    background-color: steelblue;
+    color: white;
+    transition: 1s;
+}
