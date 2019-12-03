@@ -1,0 +1,9 @@
+p{
+    display: inline-block;
+}
+span{
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+    display: inline-block;
+    width: 15px;
+}
