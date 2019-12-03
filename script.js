@@ -1,4 +1,4 @@
-let mots = ["voiture", "chaise", "table", "radiateur", "formation", "console"];
+let mots = ["voiture", "chaise", "table", "radiateur", "formation", "console","hopital","voisin","bibliotheque","incroyable","extraterrestre","restaurant","maladroit","numerique","urinoire","pornographie","alcoolisme","peripateticienne"];
 let valider = document.getElementById("valider");
 let lettre = document.getElementById("lettre");
 let maxTentative = 3;
@@ -62,8 +62,8 @@ facile.addEventListener("click", function () {
                     let element = document.createElement("span");
                     mot.appendChild(element);
                     spanSelect[i].innerHTML = "";
-                }}
-
+                }
+            }
         }
         if (trouver===false){
             alert("pas trouvé il reste "+tentativeFacile+" tentatives");
@@ -101,7 +101,8 @@ normal.addEventListener("click", function () {
                     let element = document.createElement("span");
                     mot.appendChild(element);
                     spanSelect[i].innerHTML = "";
-                }}
+                }
+            }
         }
         if (trouver===false){
             alert("pas trouvé il reste "+tentativeNormal+" tentatives");
@@ -139,18 +140,18 @@ difficile.addEventListener("click", function () {
                     let element = document.createElement("span");
                     mot.appendChild(element);
                     spanSelect[i].innerHTML = "";
-                }}
+                }
+            }
         }
         if (trouver===false){
             alert("pas trouvé il reste "+maxTentative+" tentatives");
             maxTentative--;
         }
     });
-})
+});
 
 for (i=0; i<valeur.length; i++){
     let mot = document.getElementById("mot");
     let element = document.createElement("span");
     mot.appendChild(element);
 }
-
